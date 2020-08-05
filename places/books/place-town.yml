@@ -1,0 +1,17 @@
+name: dev
+title: dev
+author: dev
+generation: ORIGINAL
+lore:
+- dev
+
+open_command: 'where-town'
+
+pages:
+  '1':
+  - 'Coord:&7 -277 67 -65'
+  - '&0Own by:&7 Everyone'
+  - '&0Name Of the place:&7 Town'
+  - '&0Instruction:&7  Build shop, mainly use for shopping district and server related events. You can build there but don''t build inside other''s people''s claim.'
+  - '<tooltip:Click to back to place menu!><command:/places>&a&lBack<reset>'
+
