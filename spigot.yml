@@ -1,4 +1,14 @@
-# Australia SMP spigot config
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
 
 config-version: 12
 settings:
@@ -65,10 +75,10 @@ world-settings:
     arrow-despawn-rate: 300
     trident-despawn-rate: 900
     wither-spawn-sound-radius: 0
-    nerf-spawner-mobs: true
+    nerf-spawner-mobs: false
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    hopper-amount: 32
+    hopper-amount: 3
     max-tnt-per-tick: 25
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -82,7 +92,7 @@ world-settings:
     seed-outpost: 165745296
     seed-endcity: 10387313
     seed-slime: 987234911
-    mob-spawn-range: 6
+    mob-spawn-range: 7
     max-entity-collisions: 8
     merge-radius:
       item: 4.0
@@ -91,12 +101,12 @@ world-settings:
       hopper-transfer: 24
       hopper-check: 24
     entity-activation-range:
-      animals: 14
-      monsters: 32
-      raiders: 32
+      animals: 18
+      monsters: 48
+      raiders: 24
       misc: 8
       water: 14
-      villagers: 24
+      villagers: 20
       flying-monsters: 24
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
