@@ -78,7 +78,7 @@ world-settings:
     nerf-spawner-mobs: false
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    hopper-amount: 3
+    hopper-amount: 1
     max-tnt-per-tick: 25
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -95,19 +95,19 @@ world-settings:
     mob-spawn-range: 7
     max-entity-collisions: 8
     merge-radius:
-      item: 4.0
-      exp: 6.0
+      item: 3.0
+      exp: 5.0
     ticks-per:
       hopper-transfer: 24
       hopper-check: 24
     entity-activation-range:
       animals: 18
-      monsters: 48
-      raiders: 24
+      monsters: 32
+      raiders: 46
       misc: 8
       water: 14
       villagers: 20
-      flying-monsters: 24
+      flying-monsters: 22
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true

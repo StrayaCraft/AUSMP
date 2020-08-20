@@ -110,16 +110,16 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
-    use-faster-eigencraft-redstone: true
+    use-faster-eigencraft-redstone: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
     disable-teleportation-suffocation-check: false
     remove-corrupt-tile-entities: false
     fixed-chunk-inhabited-time: -1
-    optimize-explosions: false
+    optimize-explosions: true
     baby-zombie-movement-modifier: 0.5
     filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 4
+    max-entity-collisions: 8
     disable-creeper-lingering-effect: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
@@ -133,7 +133,7 @@ world-settings:
     phantoms-only-attack-insomniacs: true
     keep-spawn-loaded: true
     water-over-lava-flow-speed: 5
-    grass-spread-tick-rate: 10
+    grass-spread-tick-rate: 4
     bed-search-radius: 1
     nether-ceiling-void-damage-height: 0
     allow-non-player-entities-on-scoreboards: false
@@ -141,7 +141,7 @@ world-settings:
     portal-create-radius: 16
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 2
     armor-stands-do-collision-entity-lookups: true
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
@@ -149,14 +149,14 @@ world-settings:
     keep-spawn-loaded-range: 8
     prevent-tnt-from-moving-in-water: false
     iron-golems-can-spawn-in-air: false
-    armor-stands-tick: true
-    non-player-arrow-despawn-rate: -1
+    armor-stands-tick: false
+    non-player-arrow-despawn-rate: 60
     creative-arrow-despawn-rate: -1
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     zombie-villager-infection-chance: -1.0
     all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 2
     light-queue-size: 20
     delay-chunk-unloads-by: 10s
     auto-save-interval: -1
@@ -194,7 +194,7 @@ world-settings:
         COBBLESTONE: 300
     hopper:
       cooldown-when-full: true
-      disable-move-event: true
+      disable-move-event: false
     max-growth-height:
       cactus: 3
       reeds: 3
