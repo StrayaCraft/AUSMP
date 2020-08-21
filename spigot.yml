@@ -37,8 +37,8 @@ messages:
   unknown-command: Unknown Command. Please use /Help!
   server-full: "§0  \n§0  \n§0 §c§lSERVER IS FULL\n§0\n§fThe Server you're trying\
     \ to connect\n§fto is full! Please try again later.\n§0\n§d    "
-  outdated-client: §cPlease use 1.16.1 to join
-  outdated-server: §cPlease use 1.16.1 to join
+  outdated-client: §cPlease use 1.16.2 to join
+  outdated-server: §cPlease use 1.16.2 to join
   restart: "§0  \n§0  \n§0 §c§lSERVER RESTART\n§0\n§fThe server is currently restarting.\n\
     §fPlease be patient for a moment!"
 commands:
