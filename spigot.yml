@@ -92,16 +92,16 @@ world-settings:
     seed-outpost: 165745296
     seed-endcity: 10387313
     seed-slime: 987234911
-    mob-spawn-range: 7
+    mob-spawn-range: 5
     max-entity-collisions: 8
     merge-radius:
       item: 3.0
       exp: 5.0
     ticks-per:
-      hopper-transfer: 24
-      hopper-check: 24
+      hopper-transfer: 8
+      hopper-check: 8
     entity-activation-range:
-      animals: 18
+      animals: 22
       monsters: 32
       raiders: 46
       misc: 8

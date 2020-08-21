@@ -110,8 +110,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
-    use-faster-eigencraft-redstone: false
-    prevent-moving-into-unloaded-chunks: false
+    use-faster-eigencraft-redstone: true
+    prevent-moving-into-unloaded-chunks: true
     use-vanilla-world-scoreboard-name-coloring: false
     disable-teleportation-suffocation-check: false
     remove-corrupt-tile-entities: false
@@ -189,12 +189,13 @@ world-settings:
       refresh-min: 12h
       refresh-max: 2d
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
-        COBBLESTONE: 300
+        COBBLESTONE: 1200
+        NETHERRACK: 1200
     hopper:
       cooldown-when-full: true
-      disable-move-event: false
+      disable-move-event: true
     max-growth-height:
       cactus: 3
       reeds: 3
