@@ -1,0 +1,29 @@
+#pugpur config
+#mc: 1.16.2
+version: 1
+
+settings: 
+# ale: true
+#  hide: 18
+#  distance: 32
+  
+ prevent-cat-sitting-on-chest: false
+ incoming-packet-spam-thresholds: 350
+biome-settings:
+ ocean:
+   spawn-data:
+     spider: 100,4,4
+     zombie: 95,4,4
+     drowned: 5,1,1
+     zombie_villager: 5,1,1
+     skeleton: 100,4,4
+     creeper: 100,4,4
+     slime: 100,4,4
+     enderman: 10,1,4
+     witch: 5,1,1
+     bat: 10,8,8
+     squid: 1,1,4
+     cod: 10,3,6
+     dolphin: 1,1,2
+
+ 
