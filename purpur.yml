@@ -1,0 +1,441 @@
+# This is the main configuration file for Purpur.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# 
+# If you need help with the configuration or have any questions related to Purpur,
+# join us in our Discord guild.
+# 
+# Website: https://github.com/pl3xgaming/Purpur 
+# Wiki: https://github.com/pl3xgaming/Purpur/wiki 
+
+verbose: false
+config-version: 4
+settings:
+  tps-catchup: true
+  dont-send-useless-entity-packets: false
+  lagging-threshold: 19.0
+  use-alternate-keepalive: false
+  fix-item-position-desync: false
+  allow-water-placement-in-the-end: true
+  messages:
+    afk-tab-list-prefix: '[AFK] '
+    afk-broadcast-away: §e§o%s is now AFK
+    afk-broadcast-back: §e§o%s is no longer AFK
+    ping-command-output: §a%s's ping is %sms
+    cannot-ride-mob: §cYou cannot mount that mob
+  timings:
+    url: https://timings.pl3x.net
+  blocks:
+    disable-mushroom-updates: false
+    barrel:
+      six-rows: false
+    ender_chest:
+      six-rows: false
+      use-permissions-for-rows: false
+    crying_obsidian:
+      valid-for-portal-frame: false
+  logger:
+    suppress-init-legacy-material-errors: false
+    suppress-ignored-advancement-warnings: false
+  seed:
+    dungeon: -1
+    end-spike: -1
+  entity:
+    enderman:
+      short-height: false
+world-settings:
+  default:
+    mobs:
+      illusioner:
+        ridable: false
+        ridable-in-water: false
+        max-health: 32.0
+        movement-speed: 0.5
+        follow-range: 18.0
+      iron_golem:
+        ridable: false
+        ridable-in-water: false
+        can-swim: false
+      cave_spider:
+        ridable: false
+        ridable-in-water: false
+      ender_dragon:
+        always-drop-egg-block: false
+        always-drop-full-exp: false
+        max-health: 200.0
+      endermite:
+        ridable: false
+        ridable-in-water: false
+      phantom:
+        ridable: false
+        ridable-in-water: false
+        ridable-max-y: 256.0
+        burn-in-light: 0
+        burn-in-daylight: true
+        ignore-players-with-torch: false
+        attacked-by-crystal-range: 0.0
+        attacked-by-crystal-damage: 1.0
+        orbit-crystal-radius: 0.0
+        spawn:
+          min-sky-darkness: 5
+          only-above-sea-level: true
+          only-with-visible-sky: true
+          local-difficulty-chance: 3.0
+          min-time-since-slept: 72000
+          delay:
+            min: 1200
+            max: 2400
+          overhead:
+            min: 20
+            max: 35
+            radius: 10
+          per-attempt:
+            min: 1
+            max: -1
+        flames:
+          damage: 1.0
+          fire-time: 8
+      pillager:
+        ridable: false
+        ridable-in-water: false
+      chicken:
+        ridable: false
+        ridable-in-water: false
+        retaliate: false
+      donkey:
+        ridable-in-water: false
+      enderman:
+        ridable: false
+        ridable-in-water: false
+        allow-griefing: true
+      giant:
+        ridable: false
+        ridable-in-water: false
+        step-height: 2.0
+        jump-height: 1.0
+        max-health: 100.0
+        movement-speed: 0.5
+        attack-damage: 50.0
+        have-ai: false
+        have-hostile-ai: false
+      hoglin:
+        ridable: false
+        ridable-in-water: false
+      cat:
+        ridable: false
+        ridable-in-water: false
+        spawn-delay: 1200
+        scan-range-for-other-cats:
+          swamp-hut: 16
+          village: 48
+      cow:
+        ridable: false
+        ridable-in-water: false
+        feed-mushrooms-for-mooshroom: 0
+      drowned:
+        ridable: false
+        ridable-in-water: false
+        jockey:
+          only-babies: true
+          chance: 0.05
+          try-existing-chickens: true
+      fox:
+        ridable: false
+        ridable-in-water: false
+        tulips-change-type: false
+      llama:
+        ridable: false
+        ridable-in-water: false
+      creeper:
+        ridable: false
+        ridable-in-water: false
+        allow-griefing: true
+        naturally-charged-chance: 0.0
+      mule:
+        ridable-in-water: false
+      evoker:
+        ridable: false
+        ridable-in-water: false
+      horse:
+        ridable-in-water: false
+      husk:
+        ridable: false
+        ridable-in-water: false
+        jockey:
+          only-babies: true
+          chance: 0.05
+          try-existing-chickens: true
+      witch:
+        ridable: false
+        ridable-in-water: false
+      pig:
+        ridable: false
+        ridable-in-water: false
+        give-saddle-back: false
+      villager:
+        can-breed: true
+        ridable: false
+        ridable-in-water: false
+        brain-ticks: 1
+        use-brain-ticks-only-when-lagging: true
+        can-be-leashed: false
+        bypass-mob-griefing: false
+        follow-emerald-blocks: false
+        spawn-iron-golem:
+          radius: 0
+          limit: 0
+      ravager:
+        ridable: false
+        ridable-in-water: false
+      sheep:
+        ridable: false
+        ridable-in-water: false
+      strider:
+        ridable: false
+        ridable-in-water: false
+      piglin:
+        ridable: false
+        ridable-in-water: false
+      ocelot:
+        ridable: false
+        ridable-in-water: false
+      zoglin:
+        ridable: false
+        ridable-in-water: false
+      zombie:
+        ridable: false
+        ridable-in-water: false
+        target-turtle-eggs: true
+        jockey:
+          only-babies: true
+          chance: 0.05
+          try-existing-chickens: true
+      spider:
+        ridable: false
+        ridable-in-water: false
+      skeleton:
+        ridable: false
+        ridable-in-water: false
+      stray:
+        ridable: false
+        ridable-in-water: false
+      wolf:
+        ridable: false
+        ridable-in-water: false
+      rabbit:
+        ridable: false
+        ridable-in-water: false
+        spawn-toast-chance: 0.0
+        spawn-killer-rabbit-chance: 0.0
+      panda:
+        ridable: false
+        ridable-in-water: false
+      shulker:
+        ridable: false
+        ridable-in-water: false
+      snow_golem:
+        ridable: false
+        ridable-in-water: false
+        leave-trail-when-ridden: false
+        drop-pumpkin-when-sheared: false
+        pumpkin-can-be-added-back: false
+      wandering_trader:
+        ridable: false
+        ridable-in-water: false
+        can-be-leashed: false
+        follow-emerald-blocks: false
+      trader_llama:
+        ridable: false
+        ridable-in-water: false
+      silverfish:
+        ridable: false
+        ridable-in-water: false
+      polar_bear:
+        ridable: false
+        ridable-in-water: false
+        breedable-item: ''
+      mooshroom:
+        ridable: false
+        ridable-in-water: false
+      skeleton_horse:
+        can-swim: false
+        ridable-in-water: true
+      vindicator:
+        ridable: false
+        ridable-in-water: false
+        johnny:
+          spawn-chance: 0.0
+      wither_skeleton:
+        ridable: false
+        ridable-in-water: false
+        takes-wither-damage: false
+      zombie_villager:
+        reset-reputation-when-cured: false
+        ridable: false
+        ridable-in-water: false
+        jockey:
+          only-babies: true
+          chance: 0.05
+          try-existing-chickens: true
+      zombified_piglin:
+        ridable: false
+        ridable-in-water: false
+        jockey:
+          only-babies: true
+          chance: 0.05
+          try-existing-chickens: true
+      zombie_horse:
+        can-swim: false
+        ridable-in-water: false
+        spawn-chance: 0.0
+      squid:
+        ridable: false
+        water-offset-check: 0.0
+        immune-to-EAR: true
+      dolphin:
+        ridable: false
+        disable-treasure-searching: false
+        spit:
+          cooldown: 20
+          speed: 1.0
+          damage: 2.0
+      bat:
+        ridable: false
+        ridable-in-water: false
+        ridable-max-y: 256.0
+      bee:
+        ridable: false
+        ridable-in-water: false
+        ridable-max-y: 256.0
+      blaze:
+        ridable: false
+        ridable-in-water: false
+        ridable-max-y: 256.0
+      cod:
+        ridable: false
+      elder_guardian:
+        ridable: false
+      ghast:
+        ridable: false
+        ridable-in-water: false
+        ridable-max-y: 256.0
+      guardian:
+        ridable: false
+      magma_cube:
+        ridable: false
+        ridable-in-water: false
+      parrot:
+        ridable: false
+        ridable-in-water: false
+        ridable-max-y: 256.0
+      piglin_brute:
+        ridable: false
+        ridable-in-water: false
+      pufferfish:
+        ridable: false
+      salmon:
+        ridable: false
+      slime:
+        ridable: false
+        ridable-in-water: false
+      tropical_fish:
+        ridable: false
+      turtle:
+        ridable: false
+        ridable-in-water: false
+      vex:
+        ridable: false
+        ridable-in-water: false
+        ridable-max-y: 256.0
+    blocks:
+      no-tick: []
+      turtle_egg:
+        break-from-exp-orbs: true
+        break-from-items: true
+        break-from-minecarts: true
+      dispenser:
+        place-anvils: false
+        apply-cursed-to-armor-slots: true
+      respawn_anchor:
+        explode: true
+        explosion-power: 5.0
+        explosion-fire: true
+        explosion-effect: DESTROY
+      sign:
+        allow-colors: false
+        right-click-edit: false
+      farmland:
+        gets-moist-from-below: false
+      bamboo:
+        max-height: 16
+        small-height: 10
+      bed:
+        explode: true
+        explosion-power: 5.0
+        explosion-fire: true
+        explosion-effect: DESTROY
+      lava:
+        infinite-source: false
+        speed:
+          nether: 10
+          not-nether: 30
+      spawner:
+        deactivate-by-redstone: false
+      anvil:
+        allow-colors: false
+    gameplay-mechanics:
+      entity-lifespan: 0
+      use-better-mending: false
+      disable-drops-on-cramming-death: false
+      entities-pick-up-loot-bypass-mob-griefing: false
+      fix-climbing-bypassing-cramming-rule: false
+      milk-cures-bad-omen: true
+      save-projectiles-to-disk: true
+      trident-loyalty-void-return-height: 0.0
+      void-damage-height: -64.0
+      armorstand:
+        step-height: 0.0
+      player:
+        teleport-if-outside-border: false
+        totem-of-undying-works-in-inventory: false
+        spawn-invulnerable-ticks: 60
+        invulnerable-while-accepting-resource-pack: false
+        exp-dropped-on-death:
+          equation: expLevel * 7
+          maximum: 100
+        idle-timeout:
+          kick-if-idle: true
+          tick-nearby-entities: true
+          count-as-sleeping: false
+          update-tab-list: false
+      silk-touch:
+        enabled: false
+        tools:
+        - minecraft:iron_pickaxe
+        - minecraft:golden_pickaxe
+        - minecraft:diamond_pickaxe
+        - minecraft:netherite_pickaxe
+      controllable-minecarts:
+        enabled: false
+        place-anywhere: false
+        step-height: 1.0
+        hop-boost: 0.5
+        base-speed: 0.1
+        block-speed:
+          grass-block: 0.3
+          stone: 0.5
+      boat:
+        eject-players-on-land: false
+      item:
+        immune:
+          explosion: []
+          fire: []
+      elytra:
+        damage-per-second: 1
+        damage-multiplied-by-speed: 0.0
+        ignore-unbreaking: false
+        damage-per-boost:
+          firework: 0
+          trident: 0
+    game-mechanics:
+      entities-can-use-portals: true
