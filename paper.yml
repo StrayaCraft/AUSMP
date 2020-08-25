@@ -40,7 +40,7 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   unsupported-settings:
-    allow-permanent-block-break-exploits: false
+    allow-permanent-block-break-exploits: true
     allow-piston-duplication: false
     allow-permanent-block-break-exploits-readme: This setting controls if players
       should be able to break bedrock, end portals and other intended to be permanent
