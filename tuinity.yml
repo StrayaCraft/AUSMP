@@ -1,0 +1,19 @@
+# Configuration file for Tuinity.
+pistons-can-push-tile-entities: false
+delay-chunkunloads-by: 1
+lag-compensate-block-breaking: true
+config-version-please-do-not-modify-me: 2
+world-settings:
+  default:
+    spawn-limits:
+      monsters: -1
+      animals: -1
+      water-ambient: -1
+      water-animals: -1
+      ambient: -1
+    worldgen:
+      seeds:
+        populator: default
+  world: {}
+  world_nether: {}
+  world_the_end: {}

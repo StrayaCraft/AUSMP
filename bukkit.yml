@@ -30,10 +30,10 @@ settings:
     §d
   minimum-api: none
 spawn-limits:
-  water-ambient: 20
-  monsters: 64
-  animals: 32
-  water-animals: 8
+  water-ambient: 10
+  monsters: 100
+  animals: 50
+  water-animals: 30
   ambient: 2
 chunk-gc:
   period-in-ticks: 300
