@@ -149,8 +149,8 @@ world-settings:
       sweetberry-modifier: 100
       kelp-modifier: 100
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 60000
+      entity: 60000
     hunger:
       jump-walk-exhaustion: 0.04
       jump-sprint-exhaustion: 0.1
