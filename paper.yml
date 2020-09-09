@@ -129,7 +129,7 @@ world-settings:
     experience-merge-max-value: -1
     max-auto-save-chunks-per-tick: 6
     count-all-mobs-for-spawning: false
-    per-player-mob-spawns: true
+    per-player-mob-spawns: false
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     phantoms-do-not-spawn-on-creative-players: true
