@@ -99,7 +99,7 @@ world-settings:
       exp: 5.0
     ticks-per:
       hopper-transfer: 8
-      hopper-check: 8
+      hopper-check: 1
     entity-activation-range:
       animals: 32
       monsters: 32
