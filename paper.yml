@@ -113,7 +113,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
-    use-faster-eigencraft-redstone: true
+    use-faster-eigencraft-redstone: false
     prevent-moving-into-unloaded-chunks: true
     use-vanilla-world-scoreboard-name-coloring: false
     disable-teleportation-suffocation-check: false
