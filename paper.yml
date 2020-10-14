@@ -13,6 +13,8 @@
 verbose: false
 config-version: 20
 settings:
+  track-plugin-scoreboards: false
+  max-joins-per-tick: 3
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
   load-permissions-yml-before-plugins: true
@@ -113,6 +115,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    zombies-target-turtle-eggs: true
     use-faster-eigencraft-redstone: false
     prevent-moving-into-unloaded-chunks: true
     use-vanilla-world-scoreboard-name-coloring: false
@@ -244,3 +247,9 @@ world-settings:
       maximum: 0.0
     generator-settings:
       flat-bedrock: false
+    wandering-trader:
+      spawn-minute-length: 1200
+      spawn-day-length: 24000
+      spawn-chance-failure-increment: 25
+      spawn-chance-min: 25
+      spawn-chance-max: 75
