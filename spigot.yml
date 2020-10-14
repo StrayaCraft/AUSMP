@@ -149,8 +149,8 @@ world-settings:
       sweetberry-modifier: 100
       kelp-modifier: 100
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: -1
+      entity: -1
     squid-spawn-range:
       min: 45.0
     hunger:
