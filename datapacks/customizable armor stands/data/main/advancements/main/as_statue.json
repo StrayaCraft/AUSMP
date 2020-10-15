@@ -19,7 +19,7 @@
         "announce_to_chat": false,
         "frame": "goal"
     },
-    "parent": "main:main/root",
+    "parent": "ausmp:root",
     "criteria": {
         "tick": {
             "trigger": "minecraft:tick"
