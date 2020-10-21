@@ -1,0 +1,20 @@
+Q: Why can't we set multiple homes?
+A: The Set Home feature's intended for your base or house. We're trying to keep the server as close to vanilla as possible while taking in community suggestions. The issue with multiple homes is it's essentially personal warps and being able to teleport everywhere strays too far from the vanilla aspect.
+
+Q: Why doesn't the server have Mcmmo, Warps or Economy Plugins?
+A: We are trying to keep the server semi-Vanilla and not overhaul it with plugins/modifications.
+
+Q: How do I report Greifing?
+A: Message online staff on server or discord.
+
+Q: Can I record or stream on the server?
+A: Yes you can record or stream on the server. Keep in mind promoting or advertisement that involved real world money are not allow. But you can post link to stream or channel in #general
+
+Q: Is badlion allowed?
+A: Yes
+
+Q: Why server render distance change?
+A: There is a plugin which change render distance base on server performance.
+
+Q: Why can I see random Chinese character or square in chat
+A: Those are custom made icon/emoji please put on resource-pack to see those custom asset.
