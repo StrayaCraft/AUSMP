@@ -1,11 +1,11 @@
-  '1':
+  '1': #Number ID in orders
     ParsePlayer: sender
-    Text: ':grinning:'
+    Text: ':grinning:' #Text that will trigger emoji (copy from discord)
     ParseKeyword: false
     CaseSensitive: false
     Replace:
       Enable: true
-      ReplaceText: '😀'
+      ReplaceText: '😀' # Raw emoji
   '2':
     ParsePlayer: sender
     Text: ':thinking:'
