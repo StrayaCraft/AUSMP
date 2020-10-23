@@ -1,0 +1,16 @@
+  '1':
+    ParsePlayer: sender
+    Text: ':grinning:'
+    ParseKeyword: false
+    CaseSensitive: false
+    Replace:
+      Enable: true
+      ReplaceText: '😀'
+  '2':
+    ParsePlayer: sender
+    Text: ':thinking:'
+    ParseKeyword: false
+    CaseSensitive: false
+    Replace:
+      Enable: true
+      ReplaceText: '🤔'
