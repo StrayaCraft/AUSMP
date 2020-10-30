@@ -205,8 +205,8 @@ world-settings:
       items:
         COBBLESTONE: 300
     hopper:
-      cooldown-when-full: false
-      disable-move-event: false
+      cooldown-when-full: true
+      disable-move-event: true
     lightning-strike-distance-limit:
       sound: -1
       impact-sound: -1
