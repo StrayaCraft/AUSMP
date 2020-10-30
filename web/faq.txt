@@ -18,5 +18,6 @@ A: There is a plugin which change render distance base on server performance.
 
 Q: Why can I see random Chinese character or square in chat
 A: Those are custom made icon/emoji please put on resource-pack to see those custom asset.
-Edit
 
+Q: Are duping allow on server?
+A: Only Sand, Carpet, and TNT are permitted to dupe. Items duping are not allow.
