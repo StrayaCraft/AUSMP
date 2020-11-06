@@ -116,7 +116,7 @@ world-settings:
       animals: 32
       monsters: 32
       raiders: 48
-      misc: 16
+      misc: 150
       tick-inactive-villagers: true
       wake-up-inactive:
         animals-max-per-tick: 4
