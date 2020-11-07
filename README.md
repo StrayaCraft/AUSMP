@@ -13,4 +13,3 @@ Paper.yml: https://paper.readthedocs.io/en/latest/server/configuration.html
 
 Tunity.yml: https://github.com/Spottedleaf/Tuinity/wiki/Config
 
-Purpur.yml: https://github.com/pl3xgaming/Purpur/wiki/Configuration
