@@ -118,7 +118,7 @@ world-settings:
     light-queue-size: 5
     auto-save-interval: -1
     delay-chunk-unloads-by: 0s
-    per-player-mob-spawns: false
+    per-player-mob-spawns: true
     fixed-chunk-inhabited-time: -1
     optimize-explosions: false
     count-all-mobs-for-spawning: false
