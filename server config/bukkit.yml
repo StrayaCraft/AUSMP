@@ -30,7 +30,7 @@ settings:
     §d
   minimum-api: none
 spawn-limits:
-  monsters: 60
+  monsters: 70
   animals: 10
   water-animals: 15
   water-ambient: 20
