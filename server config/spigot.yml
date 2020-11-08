@@ -92,7 +92,7 @@ world-settings:
     seed-mansion: 10387319
     seed-fossil: 14357921
     seed-portal: 34222645
-    mob-spawn-range: 6
+    mob-spawn-range: -1
     max-tnt-per-tick: 100
     entity-tracking-range:
       players: 48
