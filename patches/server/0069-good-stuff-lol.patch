@@ -1,0 +1,32 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: JustPugDev <65760447+JustPugDev@users.noreply.github.com>
+Date: Sun, 15 Nov 2020 23:56:12 +1100
+Subject: [PATCH] good stuff lol
+
+
+diff --git a/src/main/java/com/destroystokyo/paper/PaperConfig.java b/src/main/java/com/destroystokyo/paper/PaperConfig.java
+index 6ab0a51b421dc696aec292f2db955311c9cc31e3..f91def541d2cfd79e974d1af8a218b4c870dd30b 100644
+--- a/src/main/java/com/destroystokyo/paper/PaperConfig.java
++++ b/src/main/java/com/destroystokyo/paper/PaperConfig.java
+@@ -33,7 +33,7 @@ import org.spigotmc.WatchdogThread;
+ public class PaperConfig {
+ 
+     private static File CONFIG_FILE;
+-    private static final String HEADER = "This is the main configuration file for Paper.\n"
++    private static final String HEADER = "This is the main configuration file for Paper. <- bullshit\n" // PugEngine
+             + "As you can see, there's tons to configure. Some options may impact gameplay, so use\n"
+             + "with caution, and make sure you know what each option does before configuring.\n"
+             + "\n"
+diff --git a/src/main/java/net/minecraft/server/EULA.java b/src/main/java/net/minecraft/server/EULA.java
+index 229c3b0f0c650b501f31147adaa17194af57fedd..3eda9cb657bf5874514c86665f88de1df25214bc 100644
+--- a/src/main/java/net/minecraft/server/EULA.java
++++ b/src/main/java/net/minecraft/server/EULA.java
+@@ -70,7 +70,7 @@ public class EULA {
+                     Properties properties = new Properties();
+ 
+                     properties.setProperty("eula", "false");
+-                    properties.store(outputstream, "By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).");  // Paper - fix lag; // Tuinity - Tacos are disgusting
++                    properties.store(outputstream, "By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula). You also agree that pugs are the cutest thing on earth. johnny ur gay lol.");  // Paper - fix lag; // Tuinity - Tacos are disgusting
+                 } catch (Throwable throwable1) {
+                     throwable = throwable1;
+                     throw throwable1;
