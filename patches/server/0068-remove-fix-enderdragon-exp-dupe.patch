@@ -1,0 +1,28 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: JustPugDev <65760447+JustPugDev@users.noreply.github.com>
+Date: Sun, 15 Nov 2020 16:03:15 +1100
+Subject: [PATCH] remove fix enderdragon exp dupe
+
+
+diff --git a/src/main/java/net/minecraft/server/EntityEnderDragon.java b/src/main/java/net/minecraft/server/EntityEnderDragon.java
+index de53af8c01f8fa9636386737b6bc071b32f87cd1..eb9ebb62b40f6f22e29d7ad771e7883cb9936a65 100644
+--- a/src/main/java/net/minecraft/server/EntityEnderDragon.java
++++ b/src/main/java/net/minecraft/server/EntityEnderDragon.java
+@@ -830,7 +830,7 @@ public class EntityEnderDragon extends EntityInsentient implements IMonster {
+     public void saveData(NBTTagCompound nbttagcompound) {
+         super.saveData(nbttagcompound);
+         nbttagcompound.setInt("DragonPhase", this.bG.a().getControllerPhase().b());
+-        nbttagcompound.setInt("Paper.DeathTick", this.deathAnimationTicks); // Paper
++        // Paper // PugEngine
+     }
+ 
+     @Override
+@@ -839,7 +839,7 @@ public class EntityEnderDragon extends EntityInsentient implements IMonster {
+         if (nbttagcompound.hasKey("DragonPhase")) {
+             this.bG.setControllerPhase(DragonControllerPhase.getById(nbttagcompound.getInt("DragonPhase")));
+         }
+-        this.deathAnimationTicks = nbttagcompound.getInt("Paper.DeathTick"); // Paper
++         // Paper // PugEngine
+ 
+     }
+ 
