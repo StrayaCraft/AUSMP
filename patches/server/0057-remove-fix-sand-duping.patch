@@ -1,0 +1,38 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: JustPugDev <65760447+JustPugDev@users.noreply.github.com>
+Date: Sat, 14 Nov 2020 22:25:06 +1100
+Subject: [PATCH] remove fix sand duping
+
+
+diff --git a/src/main/java/net/minecraft/server/EntityFallingBlock.java b/src/main/java/net/minecraft/server/EntityFallingBlock.java
+index 76aac1b131f314775e418339e434f4f2da2ad619..4713a6347fec58dea6a32ea92a3f5c26b5fe2690 100644
+--- a/src/main/java/net/minecraft/server/EntityFallingBlock.java
++++ b/src/main/java/net/minecraft/server/EntityFallingBlock.java
+@@ -64,11 +64,8 @@ public class EntityFallingBlock extends Entity {
+ 
+     @Override
+     public void tick() {
+-        // Paper start - fix sand duping
+-        if (this.dead) {
+-            return;
+-        }
+-        // Paper end - fix sand duping
++        // PugEngine start - remove fix sand duping
++        // PugEngine end - remove fix sand duping
+         if (this.block.isAir()) {
+             this.die();
+         } else {
+@@ -91,11 +88,8 @@ public class EntityFallingBlock extends Entity {
+ 
+             this.move(EnumMoveType.SELF, this.getMot());
+ 
+-            // Paper start - fix sand duping
+-            if (this.dead) {
+-                return;
+-            }
+-            // Paper end - fix sand duping
++            // PugEngine start - remove fix sand duping
++            // PugEngine end - remove fix sand duping
+ 
+             // Paper start - Configurable EntityFallingBlock height nerf
+             if (this.world.paperConfig.fallingBlockHeightNerf != 0 && this.locY() > this.world.paperConfig.fallingBlockHeightNerf) {

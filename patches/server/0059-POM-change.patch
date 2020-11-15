@@ -1,0 +1,19 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: JustPugDev <65760447+JustPugDev@users.noreply.github.com>
+Date: Sat, 14 Nov 2020 22:44:44 +1100
+Subject: [PATCH] POM change
+
+
+diff --git a/pom.xml b/pom.xml
+index 78c2a8bbcc0132f891c8aa545529d20aa0d9eb57..355810b86a13f275c72092f9d57db1cfe2448291 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -1,7 +1,7 @@
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+-    <artifactId>tuinity</artifactId>
++    <artifactId>PugEngine</artifactId>
+     <packaging>jar</packaging>
+     <version>1.16.4-R0.1-SNAPSHOT</version>
+     <name>Tuinity-Server</name>
