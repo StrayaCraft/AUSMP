@@ -1,6 +1,7 @@
 # AUSMP
-[![Ausmp's Issues](https://img.shields.io/github/issues/JustPugDev/AUSMPBugs?label=Issues&style=for-the-badge&logo=github)](https://github.com/JustPugDev/AUSMPBugs/issues)
-Server configs for Australia SMP server
+[![Ausmp's Issues](https://img.shields.io/github/issues/JustPugDev/AUSMP?label=Issues&style=for-the-badge&logo=github)](https://github.com/JustPugDev/AUSMP/issues)
+
+#### Server configs for Australia SMP server
 
 You are allow to request changes and make a pullrequst, please provide reason and configuration discriptions 
 
