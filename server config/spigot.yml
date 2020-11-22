@@ -114,7 +114,7 @@ world-settings:
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
       animals: 32
-      monsters: 32
+      monsters: 64
       raiders: 48
       misc: -1
       tick-inactive-villagers: true
