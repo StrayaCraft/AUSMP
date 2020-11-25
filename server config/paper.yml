@@ -82,8 +82,8 @@ world-settings:
     use-faster-eigencraft-redstone: false
     zombies-target-turtle-eggs: true
     entities-target-with-follow-range: false
-    non-player-arrow-despawn-rate: -1
-    creative-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 1200
+    creative-arrow-despawn-rate: 1200
     remove-corrupt-tile-entities: false
     experience-merge-max-value: -1
     falling-block-height-nerf: 0
