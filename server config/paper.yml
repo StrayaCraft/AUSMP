@@ -85,7 +85,7 @@ world-settings:
     non-player-arrow-despawn-rate: 1200
     creative-arrow-despawn-rate: 1200
     remove-corrupt-tile-entities: false
-    experience-merge-max-value: -1
+    experience-merge-max-value: 10
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     phantoms-do-not-spawn-on-creative-players: true
